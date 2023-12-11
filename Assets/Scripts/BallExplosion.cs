@@ -8,7 +8,7 @@ public class BallExplosion : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        // キューブに衝突したかどうかを確認
+    
         if (collision.gameObject.CompareTag("Cube"))
         {
             // 爆発エフェクトを生成
